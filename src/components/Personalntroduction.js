@@ -1,0 +1,45 @@
+import React from 'react'
+import { useSelector } from 'react-redux';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { redirecting } from '../toastify';
+
+const Personalntroduction = ({themeMode}) => {
+  const UIText = useSelector((store)=> store.languageReducer);
+  const toastifyMode = themeMode ? "dark":"light";
+
+
+  return (
+    <section id="personalIntroduction">
+          <div id="personalIntroductionLeftColoumn">
+            <div id="nameAndLine">
+              <hr id="lineNextoName"></hr>
+              <div id='name'>Serkan Toraman</div>
+            </div>
+            <div id="mainHeader">{UIText.mainHeader1} 
+              <br/>
+              {UIText.mainHeader2} 
+            </div>
+            <div id='shortIntroduction'>{UIText.shortIntroduction}</div>
+            <nav>
+              <button onClick={()=>toast.warn(UIText.pageUnderConstruction,{ position: toast.POSITION.TOP_LEFT})}>&nbsp;{UIText.hireMe}&nbsp;</button>
+              <button  onClick={()=>{redirecting("https://github.com/SerkanToraman",UIText.redirectingGithub)}}><i className="fa fa-github fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Github</button>
+              <button onClick={()=>{redirecting("https://www.linkedin.com/in/serkan-toraman-a2a68146/",UIText.redirectingLinkedin)}}><i className="fa fa-linkedin fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;linkedin</button>
+            </nav> 
+          </div>
+          <div id="personalIntroductionRightColoumn">
+            <img src={require("../../src/img/myPhoto.jpeg")} alt="myPhoto"/>
+          </div>
+          <ToastContainer
+        // position="top-right"
+        autoClose={2000}
+        hideProgressBar={false}
+        // closeOnClick
+        theme={toastifyMode}
+      />
+        </section> 
+        
+  )
+}
+
+export default Personalntroduction

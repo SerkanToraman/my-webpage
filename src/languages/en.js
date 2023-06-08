@@ -1,0 +1,42 @@
+
+export const enText = {
+  themeModeDark : "NIGHT MODE",
+  themeModeLight : "LIGHT MODE", 
+  lang :  "TÜRKÇE",
+  lang1: "'YE GEÇ",
+  skills:"Skills",
+  projects : "Projects",
+  hireMe: "Hire me",
+  mainHeader1 :"Creative Thinker",
+  mainHeader2 :"Minimalism Lover",
+  shortIntroduction:"Hi, I’m Almila. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
+  skillDescription1:"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  skillDescription2:"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  skillDescription3:"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  profileHeader:"Profile",
+  DOBQuestion:"Date of Birth",
+  DOBAnswern:"30.10.1985",
+  cityQuestion:"City ​​of Residence",
+  cityAnswer:"Istanbul",
+  educationQuestion: "Degree",
+  educationAnswer: "MSc Engineering Business Mgmnt,Coventry Uni",
+  roleQuestion:"Preferred Role",
+  roleAnswer:"Frontend, UI",
+  aboutme:"About Me",
+  aboutMeDescription:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia. Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
+  projectName1:"Project Name 1",
+  projectDescription1:"A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes",
+  projectName2:"Project Name 2",
+  projectDescription2:"A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes",
+  projectName3:"Project Name 3",
+  projectDescription3:"A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes",
+  viewSite:"View Site",
+  footerComment:"Let’s work together on your next product.",
+  personelBlog:"Personal Blog",
+  redirectingLinkedin:"redirecting to Linkedin",
+  redirectingGithub:"redirecting to Github",
+  pageUnderConstruction:"Page is underconstruction"
+
+
+
+}
