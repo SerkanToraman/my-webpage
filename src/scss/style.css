@@ -727,7 +727,9 @@ table {
     justify-content: center; }
     .light_mode .body_main #projects #projectSet #projectBoxSet {
       width: 400px;
-      align-items: center; } }
+      align-items: center; }
+      .light_mode .body_main #projects #projectSet #projectBoxSet #projectsLink {
+        padding: 2rem; } }
 @media (max-width: 430px) {
   .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn #mainHeader {
     font-size: 60px; } }
@@ -988,7 +990,9 @@ table {
     justify-content: center; }
     .dark_mode .body_main #projects #projectSet #projectBoxSet {
       width: 400px;
-      align-items: center; } }
+      align-items: center; }
+      .dark_mode .body_main #projects #projectSet #projectBoxSet #projectsLink {
+        padding: 2rem; } }
 @media (max-width: 430px) {
   .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn #mainHeader {
     font-size: 60px; } }

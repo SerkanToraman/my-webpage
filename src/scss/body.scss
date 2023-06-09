@@ -345,7 +345,11 @@ $personalIntroductionLeftColoumn:60%;
           #projectBoxSet{
             width:400px;
             align-items: center;
+            #projectsLink{
+              padding: 2rem;
+            }
           }
+          
         }
         }
     }
