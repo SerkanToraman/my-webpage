@@ -101,6 +101,7 @@
         color: #6B7280; }
 .light_mode #profile {
   padding-top: 2rem;
+  padding-bottom: 2rem;
   display: flex;
   flex-direction: column; }
   .light_mode #profile #profileMainHeaders {
@@ -366,6 +367,7 @@
         color: #FFFFFF; }
 .dark_mode #profile {
   padding-top: 2rem;
+  padding-bottom: 2rem;
   display: flex;
   flex-direction: column; }
   .dark_mode #profile #profileMainHeaders {

@@ -3,7 +3,7 @@ import { toast } from 'react-toastify';
 export const redirecting = (link,text) => {
   toast.info(text,{ position: toast.POSITION.TOP_LEFT})
   setTimeout(()=>{
-    window.location.href = link;
+    window.open(link, '_blank')
    }, 2200);
 }
 
