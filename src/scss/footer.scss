@@ -96,4 +96,20 @@
         }
      
       }
+      @media (max-width :370px){
+        .footer_main{
+        
+          #footerSecondRow{
+            flex-direction: column;
+            #e-mail{
+              font-size:$textSPlus;
+            }
+            #footerLinks{
+              padding-top: 4rem;
+              flex-direction: column;
+            }
+          }
+          }
+       
+        }
 }

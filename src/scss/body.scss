@@ -182,7 +182,7 @@ $personalIntroductionLeftColoumn:60%;
             }
          }
          #aboutMeSet{
-            width:45%;
+            width:55%;
             display: flex;
             flex-direction: column;
             #aboutMeSubHeader{
@@ -229,11 +229,12 @@ $personalIntroductionLeftColoumn:60%;
           font-size:$textSMinus;
           font-weight:$weight400;
           line-height:$lineHeightS;
+          flex-grow: 2;
         }
         #skillsUsed{
           padding-top: $paddingS;
           display: flex;
-          gap: 10px;
+          gap: 8px;
           p{
             display: flex;
             align-items: center;
@@ -244,7 +245,7 @@ $personalIntroductionLeftColoumn:60%;
             background-color: themed("buttonBg");
             border: 1px solid themed("skillsUsedText");
             border-radius: 4px;
-            width: 68px;
+            width: 85px;
             height:27px;
             
           }
@@ -253,6 +254,7 @@ $personalIntroductionLeftColoumn:60%;
           padding-top: $paddingS;
           display: flex;
           justify-content: space-between;
+
           #projectsLink{
             color:themed("skillsUsedText");
             font-size: textSPlus;

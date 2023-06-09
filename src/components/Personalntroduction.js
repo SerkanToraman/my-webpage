@@ -22,7 +22,7 @@ const Personalntroduction = ({themeMode}) => {
             </div>
             <div id='shortIntroduction'>{UIText.shortIntroduction}</div>
             <nav>
-              <button onClick={()=>toast.warn(UIText.pageUnderConstruction,{ position: toast.POSITION.TOP_LEFT})}>&nbsp;{UIText.hireMe}&nbsp;</button>
+              <button onClick={()=>{redirecting("mailto:serkantrmn85@gmail.com",UIText.redirectingemail)}}>&nbsp;{UIText.hireMe}&nbsp;</button>
               <button  onClick={()=>{redirecting("https://github.com/SerkanToraman",UIText.redirectingGithub)}}><i className="fa fa-github fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Github</button>
               <button onClick={()=>{redirecting("https://www.linkedin.com/in/serkan-toraman-a2a68146/",UIText.redirectingLinkedin)}}><i className="fa fa-linkedin fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;linkedin</button>
             </nav> 

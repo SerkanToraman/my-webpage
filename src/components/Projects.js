@@ -9,41 +9,41 @@ const Projects = () => {
     <div id="projectSet" >
       <div id='projectBoxSet'>
         <div id='projectImg'>
-          <img id="projectImg" src="https://picsum.photos/seed/picsum/300/180" alt="projectImg"/>
+          <img id="projectImg" src={require("../../src/img/pizzaorder.jpeg")} alt="pizzaOrder"/>
         </div>
         <p id='projectSubHeader'>{UIText.projectName1}e</p>
         <p id='projectDefinition'>{UIText.projectDescription1}
         </p>
         <div id='skillsUsed'>
           <p>react</p>
-          <p>redux</p>
-          <p>axios</p>
+          <p>yup</p>
+          <p>reactstrap</p>
         </div>
         <div id='links'>
-          <a id="projectsLink"href="https://www.w3schools.com">Github</a>
-          <a id="projectsLink"href="https://www.w3schools.com">{UIText.viewSite}</a>
+          <a id="projectsLink"href="https://github.com/SerkanToraman/fsweb-s7-challenge-pizza.git">Github</a>
+          <a id="projectsLink"href="https://serkan-toraman-pizzaorder-f9ud94m6x-serkantoraman.vercel.app/">{UIText.viewSite}</a>
         </div>
       </div>
       <div id='projectBoxSet'>
         <div id='projectImg'>
-          <img id="projectImg" src="https://picsum.photos/seed/picsum/300/180" alt="projectImg"/>
+          <img id="projectImg" src={require("../../src/img/friendsLogin.jpeg")} alt="friendsLogin"/>
         </div>
         <p id='projectSubHeader'>{UIText.projectName2}</p>
         <p id='projectDefinition'>{UIText.projectDescription2}
         </p>
         <div id='skillsUsed'>
-          <p>react</p>
-          <p>redux</p>
-          <p>axios</p>
+          <p>useForm</p>
+          <p>context API</p>
+          <p>tailwind</p>
         </div>
         <div id='links'>
-          <a id="projectsLink"href="https://www.w3schools.com">Github</a>
-          <a id="projectsLink"href="https://www.w3schools.com">{UIText.viewSite}</a>
+          <a id="projectsLink"href="https://github.com/SerkanToraman/fsweb-s11g2-client-auth-friends">Github</a>
+          <a id="projectsLink"href="https://serkantoraman-loginfriends.vercel.app/">{UIText.viewSite}</a>
         </div>
       </div>
       <div id='projectBoxSet'>
         <div id='projectImg'>
-          <img id="projectImg" src="https://picsum.photos/seed/picsum/300/180" alt="projectImg"/>
+          <img id="projectImg" src={require("../../src/img/movieList.jpeg")} alt="movieList"/>
         </div>
         <p id='projectSubHeader'>{UIText.projectName3}</p>
         <p id='projectDefinition'>{UIText.projectDescription3}
@@ -51,11 +51,11 @@ const Projects = () => {
         <div id='skillsUsed'>
           <p>react</p>
           <p>redux</p>
-          <p>axios</p>
+          <p>middleware</p>
         </div>
         <div id='links'>
-          <a id="projectsLink"href="https://www.w3schools.com">Github</a>
-          <a id="projectsLink"href="https://www.w3schools.com">{UIText.viewSite}</a>
+          <a id="projectsLink"href="https://github.com/SerkanToraman/fsweb-s10g3-redux-watchlist">Github</a>
+          <a id="projectsLink"href="https://serkan-toraman-movielist.vercel.app/">{UIText.viewSite}</a>
         </div>
       </div>
       {/* <div id='projectBoxSet'>
@@ -109,6 +109,7 @@ const Projects = () => {
           <a id="projectsLink"href="https://www.w3schools.com">View Site</a>
         </div>
       </div> */}
+
     </div>  
   </section> 
   )

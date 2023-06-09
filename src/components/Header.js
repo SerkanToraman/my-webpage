@@ -8,6 +8,7 @@ import { languageSelection } from '../store/actions/languageAction';
 import useLocalStorage from '../localHook/UseLocalStorage';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { redirecting } from '../toastify';
 
 const Header = () => {
   const {themeMode,SetThemeMode}= useContext(ThemeModeContext);
@@ -54,7 +55,7 @@ const Header = () => {
               <button>{UIText.projects}</button>
             </HashLink>
             <HashLink to="/" smooth>
-               <button onClick={()=>toast.warn(UIText.pageUnderConstruction,{ position: toast.POSITION.TOP_LEFT})}>{UIText.hireMe}</button>
+               <button onClick={()=>{redirecting("mailto:serkantrmn85@gmail.com",UIText.redirectingemail)}}>{UIText.hireMe}</button>
             </HashLink>
           </nav> 
       </div>
