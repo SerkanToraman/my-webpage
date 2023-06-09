@@ -99,7 +99,12 @@ $personalIntroductionLeftColoumn:60%;
         height: 25rem;
         padding: 0 0 2rem 0;
         display: flex;
-        justify-content: flex-end;
+        //justify-content: flex-end;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        
+        
         
       }
       img {

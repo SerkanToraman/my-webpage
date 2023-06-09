@@ -536,7 +536,8 @@ table {
       height: 25rem;
       padding: 0 0 2rem 0;
       display: flex;
-      justify-content: flex-end; }
+      background-repeat: no-repeat;
+      background-size: contain; }
     .light_mode .body_main #personalIntroduction img {
       overflow: hidden;
       object-fit: cover;
@@ -799,7 +800,8 @@ table {
       height: 25rem;
       padding: 0 0 2rem 0;
       display: flex;
-      justify-content: flex-end; }
+      background-repeat: no-repeat;
+      background-size: contain; }
     .dark_mode .body_main #personalIntroduction img {
       overflow: hidden;
       object-fit: cover;
