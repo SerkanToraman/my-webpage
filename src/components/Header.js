@@ -6,7 +6,7 @@ import { ThemeModeContext } from '../contexts/ThemeContext';
 import { useDispatch, useSelector } from 'react-redux';
 import { languageSelection } from '../store/actions/languageAction';
 import useLocalStorage from '../localHook/UseLocalStorage';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { redirecting } from '../toastify';
 
@@ -20,11 +20,10 @@ const Header = () => {
   const [englishLangSelection,setEnglishLangSelection] = useLocalStorage ("English",true);
   const UISelector = () =>{
     setEnglishLangSelection(!englishLangSelection);
-    
   }
 
   useEffect(()=>{
-      dispatch(languageSelection(englishLangSelection,UIText))
+      dispatch(languageSelection(englishLangSelection,UIText));
   },[englishLangSelection])
 
   console.log("UIText",UIText)

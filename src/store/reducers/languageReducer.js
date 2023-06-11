@@ -13,7 +13,7 @@ export const languageReducer = (state = initialState, action ) =>{
   switch (action.type) {
     case LANGUAGE_SELECTION :
       let languageSelection = action.payload ? enText : trText;
-      console.log("action.payload",action.payload)
+      console.log("languageReducer",action.payload)
       return{
         ...state,
        ...languageSelection

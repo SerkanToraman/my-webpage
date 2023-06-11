@@ -3,5 +3,5 @@ import { languageReducer } from './languageReducer';
 
 
 export const reducers = combineReducers({
-  languageReducer
+  languageReducer,
 });

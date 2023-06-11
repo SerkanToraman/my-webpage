@@ -1,49 +1,13 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
-import pizzaImg from "../../src/img/pizzaorder.jpeg";
-import friendImg from "../../src/img/friendsLogin.jpeg";
-import movieListPic from "../../src/img/movieList.jpeg"
+import { ProjectUIText } from '../localHook/ProjectUIText';
 
 
 const Projects = () => {
+  const projectsData  = ProjectUIText();
   const UIText = useSelector((store)=> store.languageReducer);
-  const projectsData = [{
-    img :pizzaImg,
-    alt:"pizzaOrder",
-    name:UIText.projectName1,
-    definition:UIText.projectDescription1,
-    skill1:"react",
-    skill2:"yup",
-    skill3:"reactstrap",
-    githubLink:"https://github.com/SerkanToraman/fsweb-s7-challenge-pizza.git",
-    websitelink:"https://serkan-toraman-pizzaorder-f9ud94m6x-serkantoraman.vercel.app/",
-    website:UIText.viewSite
-  },
-  {
-    img :friendImg,
-    alt:"friendsLogin",
-    name:UIText.projectName2,
-    definition:UIText.projectDescription2,
-    skill1:"useForm",
-    skill2:"context API",
-    skill3:"tailwind",
-    githubLink:"https://github.com/SerkanToraman/fsweb-s11g2-client-auth-friends",
-    websitelink:"https://serkantoraman-loginfriends.vercel.app/",
-    website:UIText.viewSite
-  },
-  {
-    img:movieListPic,
-    alt:"movieList",
-    name:UIText.projectName3,
-    definition:UIText.projectDescription3,
-    skill1:"react",
-    skill2:"redux",
-    skill3:"middleware",
-    githubLink:"https://github.com/SerkanToraman/fsweb-s10g3-redux-watchlist",
-    websitelink:"https://serkan-toraman-movielist.vercel.app/",
-    website:UIText.viewSite
-  }
-  ]
+  console.log("projectsData",projectsData)
+  
   return (
   <section id="projects">
     <h1 id='projectMainHeaders'>{UIText.projects}</h1>
