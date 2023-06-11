@@ -8,7 +8,7 @@
   .light_mode .body_main #personalIntroduction {
     display: flex; }
     .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn {
-      width: 60%;
+      width: 65%;
       padding-right: 6rem;
       display: flex;
       flex-direction: column;
@@ -59,7 +59,7 @@
         background-color: #3730A3;
         color: #FFFFFF; }
     .light_mode .body_main #personalIntroduction #personalIntroductionRightColoumn {
-      width: 40%;
+      width: 35%;
       height: 25rem;
       padding: 0 0 2rem 0;
       display: flex;
@@ -191,7 +191,7 @@
         padding-top: 1rem;
         display: flex;
         gap: 8px; }
-        .light_mode #projects #projectSet #projectBoxSet #skillsUsed p {
+        .light_mode #projects #projectSet #projectBoxSet #skillsUsed #uniqueSkill {
           display: flex;
           align-items: center;
           justify-content: center;
@@ -274,7 +274,7 @@
   .dark_mode .body_main #personalIntroduction {
     display: flex; }
     .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn {
-      width: 60%;
+      width: 65%;
       padding-right: 6rem;
       display: flex;
       flex-direction: column;
@@ -325,7 +325,7 @@
         background-color: #E1E1FF;
         color: #000000; }
     .dark_mode .body_main #personalIntroduction #personalIntroductionRightColoumn {
-      width: 40%;
+      width: 35%;
       height: 25rem;
       padding: 0 0 2rem 0;
       display: flex;
@@ -457,7 +457,7 @@
         padding-top: 1rem;
         display: flex;
         gap: 8px; }
-        .dark_mode #projects #projectSet #projectBoxSet #skillsUsed p {
+        .dark_mode #projects #projectSet #projectBoxSet #skillsUsed #uniqueSkill {
           display: flex;
           align-items: center;
           justify-content: center;

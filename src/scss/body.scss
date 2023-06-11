@@ -1,5 +1,5 @@
 @import 'colorTextVariables';
-$personalIntroductionLeftColoumn:60%;
+$personalIntroductionLeftColoumn:65%;
 //Sub Main Headers and SubHeaders are for the simlar headers in the body section
 @mixin subMainHeaders{
   font-size: $textL;
@@ -102,9 +102,7 @@ $personalIntroductionLeftColoumn:60%;
         //justify-content: flex-end;
         background-repeat: no-repeat;
         background-size: contain;
-
-        
-        
+ 
         
       }
       img {

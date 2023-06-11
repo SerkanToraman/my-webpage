@@ -481,7 +481,7 @@ table {
   .light_mode .body_main #personalIntroduction {
     display: flex; }
     .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn {
-      width: 60%;
+      width: 65%;
       padding-right: 6rem;
       display: flex;
       flex-direction: column;
@@ -532,7 +532,7 @@ table {
         background-color: #3730A3;
         color: #FFFFFF; }
     .light_mode .body_main #personalIntroduction #personalIntroductionRightColoumn {
-      width: 40%;
+      width: 35%;
       height: 25rem;
       padding: 0 0 2rem 0;
       display: flex;
@@ -747,7 +747,7 @@ table {
   .dark_mode .body_main #personalIntroduction {
     display: flex; }
     .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn {
-      width: 60%;
+      width: 65%;
       padding-right: 6rem;
       display: flex;
       flex-direction: column;
@@ -798,7 +798,7 @@ table {
         background-color: #E1E1FF;
         color: #000000; }
     .dark_mode .body_main #personalIntroduction #personalIntroductionRightColoumn {
-      width: 40%;
+      width: 35%;
       height: 25rem;
       padding: 0 0 2rem 0;
       display: flex;
