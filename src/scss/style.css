@@ -664,7 +664,7 @@ table {
         padding-top: 1rem;
         display: flex;
         gap: 8px; }
-        .light_mode #projects #projectSet #projectBoxSet #skillsUsed p {
+        .light_mode #projects #projectSet #projectBoxSet #skillsUsed #uniqueSkill {
           display: flex;
           align-items: center;
           justify-content: center;
@@ -930,7 +930,7 @@ table {
         padding-top: 1rem;
         display: flex;
         gap: 8px; }
-        .dark_mode #projects #projectSet #projectBoxSet #skillsUsed p {
+        .dark_mode #projects #projectSet #projectBoxSet #skillsUsed #uniqueSkill {
           display: flex;
           align-items: center;
           justify-content: center;

@@ -15,9 +15,9 @@ const Footer = () => {
 
   return (
     <div className={`${mode} footer_main`}>
-      <p id='footerMainHeader'>{UIText.footerComment}</p>
+      <h1 id='footerMainHeader'>{UIText.footerComment}</h1>
       <div id='footerSecondRow'>
-         <p>👉 <a id="e-mail" href="mailto:serkantrmn85@gmail.com">serkantrmn85@gmail.com</a></p> 
+         <span>👉 <a id="e-mail" href="mailto:serkantrmn85@gmail.com">serkantrmn85@gmail.com</a></span> 
           <div id="footerLinks">
             <button id="personalBlog" onClick={()=>toast.warn(UIText.pageUnderConstruction,{ position: toast.POSITION.TOP_LEFT})}> {UIText.personelBlog}</button>
             <button id="gitHub" onClick={()=>{redirecting("https://github.com/SerkanToraman",UIText.redirectingGithub)}}> Github</button>

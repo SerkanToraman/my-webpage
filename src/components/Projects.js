@@ -46,20 +46,20 @@ const Projects = () => {
   ]
   return (
   <section id="projects">
-    <p id='projectMainHeaders'>{UIText.projects}</p>
+    <h1 id='projectMainHeaders'>{UIText.projects}</h1>
     <div id="projectSet" >
       {projectsData.map((item)=>
       <div id='projectBoxSet'>
         <div id='projectImg'>
           <img id="projectImg" src={item.img} alt={item.alt}/>
         </div>
-        <p id='projectSubHeader'>{item.name}</p>
+        <h2 id='projectSubHeader'>{item.name}</h2>
         <p id='projectDefinition'>{item.definition}
         </p>
         <div id='skillsUsed'>
-          <p>{item.skill1}</p>
-          <p>{item.skill2}</p>
-          <p>{item.skill3}</p>
+          <span id="uniqueSkill">{item.skill1}</span>
+          <span id="uniqueSkill">{item.skill2}</span>
+          <span id="uniqueSkill">{item.skill3}</span>
         </div>
         <div id='links'>
           <a id="projectsLink"href={item.githubLink}>Github</a>

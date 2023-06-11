@@ -5,23 +5,23 @@ const Profile = () => {
   const UIText = useSelector((store)=> store.languageReducer);
   return (
     <section id="profile">
-        <p id='profileMainHeaders'>{UIText.profileHeader}</p>
+        <h1 id='profileMainHeaders'>{UIText.profileHeader}</h1>
         <div id="profileSet" >
             <div id='profileBoxSet'>
-              <p id='profileSubHeader'>{UIText.profileHeader}</p>
+              <h2 id='profileSubHeader'>{UIText.profileHeader}</h2>
               <div id='profileBox'>
-                <p id="key">{UIText.DOBQuestion}</p>
-                <p id="value">{UIText.DOBAnswern}</p>
-                <p id="key">{UIText.cityQuestion}</p>
-                <p id="value">{UIText.cityAnswer}</p>
-                <p id="key">{UIText.educationQuestion}</p>
-                <p id="value">{UIText.educationAnswer}</p>
-                <p id="key">{UIText.roleQuestion}</p>
-                <p id="value">{UIText.roleAnswer}</p>
+                <ul id="key">{UIText.DOBQuestion}</ul>
+                <ul id="value">{UIText.DOBAnswern}</ul>
+                <ul id="key">{UIText.cityQuestion}</ul>
+                <ul id="value">{UIText.cityAnswer}</ul>
+                <ul id="key">{UIText.educationQuestion}</ul>
+                <ul id="value">{UIText.educationAnswer}</ul>
+                <ul id="key">{UIText.roleQuestion}</ul>
+                <ul id="value">{UIText.roleAnswer}</ul>
               </div>
             </div>
             <div id='aboutMeSet'>
-              <p id="aboutMeSubHeader">{UIText.aboutme}</p>
+              <h2 id="aboutMeSubHeader">{UIText.aboutme}</h2>
               <p id="aboutMeDefinition"> {UIText.aboutMeDescription}</p>
             </div>
         </div>  

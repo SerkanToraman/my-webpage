@@ -41,9 +41,9 @@ const Header = () => {
                 <span className='slider'></span>    
           </label>
         </div>
-        <p id="sliderText">{themeMode ? UIText.themeModeDark:UIText.themeModeLight}</p>
-        <p id="verticalLine">|</p>
-        <p id="languageText" onClick={UISelector}> <span>{UIText.lang}</span>{UIText.lang1}</p>
+        <span id="sliderText">{themeMode ? UIText.themeModeDark:UIText.themeModeLight}</span>
+        <span id="verticalLine">|</span>
+        <span id="languageText" onClick={UISelector}> <span>{UIText.lang}</span>{UIText.lang1}</span>
       </div>
       <div id="header_second_row">
         <div id="header_logo">S</div>

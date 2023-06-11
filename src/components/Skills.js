@@ -5,30 +5,20 @@ const Skills = () => {
   const UIText = useSelector((store)=> store.languageReducer);
   return (
     <section id="skills">
-        <p id='skillMainHeaders'>{UIText.skills}</p>
+        <h1 id='skillMainHeaders'>{UIText.skills}</h1>
         <div id='skillBoxSet'>
           <div id='skillBox'>
-            <p id="skillSubHeader">Java Script</p>
+            <h2 id="skillSubHeader">Java Script</h2>
             <p id="skillDefinition">{UIText.skillDescription1} </p> 
           </div>
           <div id='skillBox'>
-            <p id="skillSubHeader">React</p>
+            <h2 id="skillSubHeader">React</h2>
             <p id="skillDefinition">{UIText.skillDescription2} </p>
           </div>
           <div id='skillBox'>
-            <p id="skillSubHeader">SCSS</p>
+            <h2 id="skillSubHeader">SCSS</h2>
             <p id="skillDefinition">{UIText.skillDescription3}  </p> 
           </div>
-          {/* <div id='skillBox'>
-            <p id="skillSubHeader">SCSS</p>
-            <p id="skillDefinition"> Jsdfsdft</p></div>
-          <div id='skillBox'>
-            <p id="skillSubHeader">Node</p>
-            <p id="skillDefinition"> Jsdfsdft</p></div>
-          <div id='skillBox'>
-            <p id="skillSubHeader">Figma</p>
-            <p id="skillDefinition"> Jsdfsdft</p>
-          </div> */}
         </div>
     </section> 
   )
