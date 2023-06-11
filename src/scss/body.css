@@ -9,7 +9,7 @@
     display: flex; }
     .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn {
       width: 65%;
-      padding-right: 6rem;
+      padding-right: 4rem;
       display: flex;
       flex-direction: column;
       justify-content: space-around; }
@@ -275,7 +275,7 @@
     display: flex; }
     .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn {
       width: 65%;
-      padding-right: 6rem;
+      padding-right: 4rem;
       display: flex;
       flex-direction: column;
       justify-content: space-around; }
