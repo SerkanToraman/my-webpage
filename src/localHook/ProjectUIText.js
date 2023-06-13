@@ -7,7 +7,6 @@ import { useSelector } from "react-redux";
 export const ProjectUIText = () => {
 
   const UITextProject = useSelector((store)=> store.languageReducer)
-  console.log("UITextProject",UITextProject)
 
   const projectsData = [{
     img :pizzaImg,

@@ -26,8 +26,6 @@ const Header = () => {
       dispatch(languageSelection(englishLangSelection,UIText));
   },[englishLangSelection])
 
-  console.log("UIText",UIText)
-  console.log("englishLangSelection",englishLangSelection)
 
 
   return (

@@ -6,7 +6,6 @@ import { ProjectUIText } from '../localHook/ProjectUIText';
 const Projects = () => {
   const projectsData  = ProjectUIText();
   const UIText = useSelector((store)=> store.languageReducer);
-  console.log("projectsData",projectsData)
   
   return (
   <section id="projects">
