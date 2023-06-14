@@ -10,7 +10,7 @@ export const enText = {
   redirectingemail:"Redirecting to E-mail",
   mainHeader1 :"Creative Thinker",
   mainHeader2 :"Constant Learner",
-  shortIntroduction:"Hi, I’m Serkan. I’m a frontend developer. If you are looking for a Developer who to craft a solid product that all the interactive parts are taken care of and a product that will impress the end user, Let’s shake hands.",
+  shortIntroduction:"Hi, I’m Serkan. I’m a frontend developer. If you are looking for a Developer who to craft a solid product that all the interactive parts are taken care of and a product that will impress the end user, let’s shake hands.",
   skillDescription1:"By completing over 40 projects, I have a good understanding of JS. Yet I am willing to expand my knowledge on it.",
   skillDescription2:"I have completed over 10 project in which i have had the opportunuty to use redux, middleware, context API's, custom hooks, localstorage, axios etc.",
   skillDescription3:"I have experience in SCSS. In addition, i have made use of several libriaries such as bootstrap, reactstrap, tailwinds, toastifty.",
