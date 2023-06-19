@@ -6,7 +6,7 @@ import { redirecting } from '../toastify';
 
 const Personalntroduction = ({themeMode}) => {
   const UIText = useSelector((store)=> store.languageReducer);
-  const toastifyMode = themeMode ? "dark":"light";
+  //const toastifyMode = themeMode ? "dark":"light";
 
 
   return (
@@ -22,21 +22,21 @@ const Personalntroduction = ({themeMode}) => {
             </h1>
             <p id='shortIntroduction'>{UIText.shortIntroduction}</p>
             <nav>
-              <button onClick={()=>{redirecting("mailto:serkantrmn85@gmail.com",UIText.redirectingemail)}}>&nbsp;{UIText.hireMe}&nbsp;</button>
-              <button onClick={()=>{redirecting("https://github.com/SerkanToraman",UIText.redirectingGithub)}}><i className="fa fa-github fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Github</button>
-              <button onClick={()=>{redirecting("https://www.linkedin.com/in/serkan-toraman-a2a68146/",UIText.redirectingLinkedin)}}><i className="fa fa-linkedin fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;linkedin</button>
+              <a href="mailto:serkantrmn85@gmail.com">&nbsp;{UIText.hireMe}&nbsp;</a>
+              <a href="##" onClick={()=>{redirecting("github","https://www.linkedin.com/in/serkan-toraman-a2a68146/")}}><i className="fa fa-github fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Github</a>
+              <a href="https://www.linkedin.com/in/serkan-toraman-a2a68146/"><i className="fa fa-linkedin fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;linkedin</a>
             </nav> 
           </div>
           <div id="personalIntroductionRightColoumn">
             <img src={require("../../src/img/myPhoto.jpeg")} alt="myPhoto"/>
           </div>
-          <ToastContainer
+        {/* <ToastContainer
         // position="top-right"
         autoClose={2000}
         hideProgressBar={false}
         // closeOnClick
         theme={toastifyMode}
-      />
+      /> */}
         </section> 
         
   )
