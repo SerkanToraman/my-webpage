@@ -23,7 +23,7 @@ const Personalntroduction = ({themeMode}) => {
             <p id='shortIntroduction'>{UIText.shortIntroduction}</p>
             <nav>
               <button onClick={()=>{redirecting("mailto:serkantrmn85@gmail.com",UIText.redirectingemail)}}>&nbsp;{UIText.hireMe}&nbsp;</button>
-              <button  onClick={()=>{redirecting("https://github.com/SerkanToraman",UIText.redirectingGithub)}}><i className="fa fa-github fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Github</button>
+              <button  target="_blank" rel="noopener noreferrer" onClick={()=>{redirecting("https://github.com/SerkanToraman",UIText.redirectingGithub)}}><i className="fa fa-github fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Github</button>
               <button onClick={()=>{redirecting("https://www.linkedin.com/in/serkan-toraman-a2a68146/",UIText.redirectingLinkedin)}}><i className="fa fa-linkedin fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;linkedin</button>
             </nav> 
           </div>
