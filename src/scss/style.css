@@ -519,7 +519,7 @@ table {
         justify-content: center;
         gap: 10px;
         flex-wrap: wrap; }
-      .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn a {
+      .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn button {
         padding: 12px 32px;
         border-radius: 6px;
         background-color: transparent;
@@ -529,7 +529,7 @@ table {
         line-height: 28px;
         text-decoration: none;
         cursor: pointer; }
-      .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn a:hover {
+      .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn button:hover {
         background-color: #3730A3;
         color: #FFFFFF; }
     .light_mode .body_main #personalIntroduction #personalIntroductionRightColoumn {
@@ -786,7 +786,7 @@ table {
         justify-content: center;
         gap: 10px;
         flex-wrap: wrap; }
-      .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn a {
+      .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn button {
         padding: 12px 32px;
         border-radius: 6px;
         background-color: #383838;
@@ -796,7 +796,7 @@ table {
         line-height: 28px;
         text-decoration: none;
         cursor: pointer; }
-      .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn a:hover {
+      .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn button:hover {
         background-color: #E1E1FF;
         color: #000000; }
     .dark_mode .body_main #personalIntroduction #personalIntroductionRightColoumn {

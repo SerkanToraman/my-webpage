@@ -77,7 +77,7 @@ $personalIntroductionLeftColoumn:65%;
           flex-wrap: wrap;
  
         }
-        a{
+        button{
           padding: 12px 32px;
           border-radius: 6px;
           background-color:themed("buttonBg");
@@ -88,7 +88,7 @@ $personalIntroductionLeftColoumn:65%;
           text-decoration: none;
           cursor: pointer;
         }
-        a:hover{
+        button:hover{
           background-color:themed("buttonBgHover");
           color:themed("buttonText");
           

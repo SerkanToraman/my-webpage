@@ -1,10 +1,9 @@
 import { toast } from 'react-toastify';
 
-export const redirecting = (text,link) => {
-    toast.info(text,{ position: toast.POSITION.TOP_LEFT})
+export const redirecting = (link,text) => {
+  toast.info(text,{ position: toast.POSITION.TOP_LEFT})
   setTimeout(()=>{
-    // eslint-disable-next-line 
-    location.href=link;
+    window.open(link, '_blank',"noopener")
    }, 2200);
 }
 
