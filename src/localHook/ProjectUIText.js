@@ -17,7 +17,7 @@ export const ProjectUIText = () => {
     skill2:"yup",
     skill3:"reactstrap",
     githubLink:"https://github.com/SerkanToraman/fsweb-s7-challenge-pizza.git",
-    websitelink:"https://serkan-toraman-pizzaorder-f9ud94m6x-serkantoraman.vercel.app/",
+    websitelink:"https://serkan-toraman-pizzaorder.vercel.app/",
     website:UITextProject.viewSite
   },
   {

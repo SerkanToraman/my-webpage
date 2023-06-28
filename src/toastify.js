@@ -1,13 +1,13 @@
-import { toast } from 'react-toastify';
+//import { toast } from 'react-toastify';
 
 export const redirecting = (link,text) => {
-  toast.info(text,{ position: toast.POSITION.TOP_LEFT})
-  
-  let wi = window.open('about:blank', '_blank') 
-  setTimeout(()=>{
-    wi.location.href = link;
-   }, 500);
-}
+  //toast.info(text,{ position: toast.POSITION.TOP_LEFT})
+  let wi = window.open('about:blank', '_blank') ;
+
+      setTimeout(()=>{
+      wi.location.href = link;
+      },100)  
+  }
 
 // export const redirecting = (link,text) => {
 //   toast.info(text,{ position: toast.POSITION.TOP_LEFT})

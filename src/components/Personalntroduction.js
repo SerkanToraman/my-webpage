@@ -32,8 +32,8 @@ const Personalntroduction = ({themeMode}) => {
           </div>
         <ToastContainer
         // position="top-right"
-        autoClose={2000}
-        hideProgressBar={false}
+        autoClose={1000}
+        hideProgressBar={true}
         // closeOnClick
         theme={toastifyMode}
       />
