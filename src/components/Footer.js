@@ -22,6 +22,7 @@ const Footer = () => {
             <button id="personalBlog" onClick={()=>toast.warn(UIText.pageUnderConstruction,{ position: toast.POSITION.TOP_LEFT})}> {UIText.personelBlog}</button>
             <button id="gitHub" onClick={()=>{redirecting("https://github.com/SerkanToraman",UIText.redirectingGithub)}}> Github</button>
             <button id="linkedin" onClick={()=>{redirecting("https://www.linkedin.com/in/serkan-toraman-a2a68146/",UIText.redirectingLinkedin)}}>Linkedin</button>
+            <button id="hackerrank" onClick={()=>{redirecting("https://www.hackerrank.com/serkan_toraman?hr_r=1",UIText.redirectingHackerrank)}}>&nbsp;&nbsp;Hackerrank</button>
             <ToastContainer
               // position="top-right"
               autoClose={2000}

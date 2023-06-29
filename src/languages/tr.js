@@ -35,6 +35,7 @@ export const trText = {
   personelBlog:"Kişisel Blog",
   redirectingLinkedin:"Linkedin'e yönlendiriliyorsunuz.",
   redirectingGithub:"Github'a yönlendiriliyorsunuz.",
+  redirectingHackerrank:"Hackerrank'e yönlendiriliyorsunuz.",
   pageUnderConstruction:"Sayfa yapim aşamasındadır."
 
 

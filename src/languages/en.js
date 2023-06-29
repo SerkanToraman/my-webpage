@@ -36,6 +36,7 @@ export const enText = {
   personelBlog:"Personal Blog",
   redirectingLinkedin:"Redirecting to Linkedin",
   redirectingGithub:"Redirecting to Github",
+  redirectingHackerrank:"Redirecting to Hackerrank",
   pageUnderConstruction:"Page is underconstruction"
 
 

@@ -22,9 +22,14 @@ const Personalntroduction = ({themeMode}) => {
             </h1>
             <p id='shortIntroduction'>{UIText.shortIntroduction}</p>
             <nav>
-              <button onClick={()=>{redirecting("mailto:serkantrmn85@gmail.com",UIText.redirectingemail)}}>&nbsp;{UIText.hireMe}&nbsp;</button>
-              <button  onClick={()=>{redirecting("https://github.com/SerkanToraman",UIText.redirectingGithub)}}><i className="fa fa-github fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Github</button>
-              <button onClick={()=>{redirecting("https://www.linkedin.com/in/serkan-toraman-a2a68146/",UIText.redirectingLinkedin)}}><i className="fa fa-linkedin fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;linkedin</button>
+              <div id='buttonGroup'>
+                <button onClick={()=>{redirecting("mailto:serkantrmn85@gmail.com",UIText.redirectingemail)}}>&nbsp;{UIText.hireMe}&nbsp;</button>
+                <button  onClick={()=>{redirecting("https://github.com/SerkanToraman",UIText.redirectingGithub)}}><i className="fa fa-github fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Github</button>
+              </div>
+              <div id='buttonGroup'>
+                <button onClick={()=>{redirecting("https://www.linkedin.com/in/serkan-toraman-a2a68146/",UIText.redirectingLinkedin)}}><i className="fa fa-linkedin fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Linkedin</button>
+                <button onClick={()=>{redirecting("https://www.hackerrank.com/serkan_toraman?hr_r=1",UIText.redirectingHackerrank)}}><i class="fa-brands fa-hackerrank fa-lg"></i>&nbsp;&nbsp;Hackerrank</button>
+              </div>
             </nav> 
           </div>
           <div id="personalIntroductionRightColoumn">
@@ -32,7 +37,7 @@ const Personalntroduction = ({themeMode}) => {
           </div>
         <ToastContainer
         // position="top-right"
-        autoClose={1000}
+        autoClose={500}
         hideProgressBar={true}
         // closeOnClick
         theme={toastifyMode}

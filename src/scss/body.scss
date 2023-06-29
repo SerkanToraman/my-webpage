@@ -71,14 +71,20 @@ $personalIntroductionLeftColoumn:65%;
         nav{
           padding-top: $paddingM;
           display: flex;
-          flex-direction: row;
+          flex-direction: column;
           justify-content: center;
           gap:10px;
-          flex-wrap: wrap;
- 
+        #buttonGroup{
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+          gap: 10px;
+        }
         }
         button{
-          padding: 12px 32px;
+          width:250px;
+          padding-top: 8px;
+          padding-bottom: 8px;
           border-radius: 6px;
           background-color:themed("buttonBg");
           border :0.1rem solid themed("buttonBgHover");
@@ -283,7 +289,7 @@ $personalIntroductionLeftColoumn:65%;
           nav{
             button{
               padding :0 0;
-              width:150px;
+              width:200px;
               height:45px;
 
             }
@@ -369,6 +375,16 @@ $personalIntroductionLeftColoumn:65%;
         }      
       }
     }
+  #personalIntroduction{
+    #personalIntroductionLeftColoumn{
+      nav{
+        #buttonGroup{
+          flex-direction: column;
+        }
+      }
+    }
+  }
+    
   }
 }
 }
