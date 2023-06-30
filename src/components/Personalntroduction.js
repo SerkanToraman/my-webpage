@@ -23,12 +23,12 @@ const Personalntroduction = ({themeMode}) => {
             <p id='shortIntroduction'>{UIText.shortIntroduction}</p>
             <nav>
               <div id='buttonGroup'>
-                <button onClick={(e)=>{e.preventDefault(); window.open("mailto:serkantrmn85@gmail.com")}}>&nbsp;{UIText.hireMe}&nbsp;</button>
-                <button  onClick={()=>{redirecting("https://github.com/SerkanToraman",UIText.redirectingGithub)}}><i className="fa fa-github fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Github</button>
+                <button id="introductionButton" onClick={(e)=>{e.preventDefault(); window.open("mailto:serkantrmn85@gmail.com")}}>&nbsp;{UIText.hireMe}&nbsp;</button>
+                <button  id="introductionButton"  onClick={()=>{redirecting("https://github.com/SerkanToraman",UIText.redirectingGithub)}}><i className="fa fa-github fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Github</button>
               </div>
               <div id='buttonGroup'>
-                <button onClick={()=>{redirecting("https://www.linkedin.com/in/serkan-toraman-a2a68146/",UIText.redirectingLinkedin)}}><i className="fa fa-linkedin fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Linkedin</button>
-                <button onClick={()=>{redirecting("https://www.hackerrank.com/serkan_toraman?hr_r=1",UIText.redirectingHackerrank)}}><i class="fa-brands fa-hackerrank fa-lg"></i>&nbsp;&nbsp;Hackerrank</button>
+                <button id="introductionButton" onClick={()=>{redirecting("https://www.linkedin.com/in/serkan-toraman-a2a68146/",UIText.redirectingLinkedin)}}><i className="fa fa-linkedin fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Linkedin</button>
+                <button id="introductionButton" onClick={()=>{redirecting("https://www.hackerrank.com/serkan_toraman?hr_r=1",UIText.redirectingHackerrank)}}><i class="fa-brands fa-hackerrank fa-lg"></i>&nbsp;&nbsp;Hackerrank</button>
               </div>
             </nav> 
           </div>

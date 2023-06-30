@@ -81,7 +81,7 @@ $personalIntroductionLeftColoumn:65%;
           gap: 10px;
         }
         }
-        button{
+        #introductionButton{
           width:250px;
           padding-top: 8px;
           padding-bottom: 8px;
@@ -94,7 +94,7 @@ $personalIntroductionLeftColoumn:65%;
           text-decoration: none;
           cursor: pointer;
         }
-        button:hover{
+        #introductionButton:hover{
           background-color:themed("buttonBgHover");
           color:themed("buttonText");
           
@@ -287,7 +287,7 @@ $personalIntroductionLeftColoumn:65%;
       #personalIntroduction{
         #personalIntroductionLeftColoumn{
           nav{
-            button{
+            #introductionButton{
               padding :0 0;
               width:200px;
               height:45px;
