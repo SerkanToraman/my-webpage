@@ -9,10 +9,10 @@ export const trText = {
   redirectingemail:"E-mailime yönlendiriliyorsunuz.",
   mainHeader1 :"Yaratıcı Düşünen",
   mainHeader2 :"Sürekli Gelişen",
-  shortIntroduction:"Merhaba, ben Serkan. Frontend geliştiricisiyim. Kullaniciyi etkileyecek ve interaktif parçalarının tümü detaylı hazırlanmış kaliteli ürünler istiyorsanız benimle iletişime geçebilirsiniz.",
-  skillDescription1:"40'ın üzerinde proje tamamlayarak, JS hakkında iyi bir bilgi birikimim oluşmuştur. Tabi ki yine de bu bilgimin üzerine eklemeye devam edeceğim.",
-  skillDescription2:"Redux,middleware, context API's, custom hooks, localstorage, axios gibi kütüphaneleri, çalıştığım 10'un üzerinde projelerde kullanma fırsatım oldu.  ",
-  skillDescription3:"SCSS içeren bir proje çalışarak bu konuda deneyim kazanmaya başladım. Bunun yanımda bootstrap, reactstrap, tailwinds, toastifty gibi kütüphaneleri kullanma fırsatım oldu. ",
+  shortIntroduction:"Merhaba, ben Serkan. Full-Stack geliştiricisiyim. Kullaniciyi etkileyecek ve uçtan uca tüm parçaların detaylı hazırlanmış kaliteli ürünler istiyorsanız benimle iletişime geçebilirsiniz.",
+  skillDescription1:"Redux, middleware, context API's, custom hooks, localstorage, axios, react-hook-form, react-router-dom, cypress gibi kütüphaneleri, çalıştığım 20'nin üzerinde projede kullanma fırsatım oldu.",
+  skillDescription2:"Express, knex, sqlite3, dotenv, cors, redis, jsonwebtoken, bcryptjs, jest, nodemon kütüphaneler kullanabilmekteyim. Bunun yaninda REST mimarisi deneyimim bulunmaktadir.",
+  skillDescription3:"SCSS içeren bir proje çalışarak bu konuda deneyim kazandım. Bunun yanımda bootstrap, reactstrap, tailwinds, toastifty gibi kütüphaneleri kullanabilmekteyim. ",
   profileHeader:"Profil",
   DOBQuestion:"Doğum Tarihi",
   DOBAnswern:"30.10.1985",
@@ -21,7 +21,7 @@ export const trText = {
   educationQuestion: "Eğitim Durumu",
   educationAnswer: "MSc Engineering Business Mgmt,Coventry Uni.",
   roleQuestion:"Tercih Ettiği Rol",
-  roleAnswer:"Frontend, UI",
+  roleAnswer:"Full Stack Yazılımcı",
   aboutme:"Hakkımda",
   aboutMeDescription:"Erciyes Universitesi Makina Mühendisliği lisans eğitimimi tamamladıktan sonra Coventry Üniversitesi'nde Master derecemi Engineering Business Management üzerine yaptım. İtalya, Çin ve Almanya'da Endüstri Mühendisliği ve Satış bölümlerinde çalıştım. Multikültürel çalışma ortamında çalışmanın getirdiği deneyim, sürekli öğrenme gayretim ve yazılım tutkumla yazılım sektöründe başarılı olamayı hedefliyorum",
   projectName1:"Pizza Siparişi",
@@ -37,6 +37,4 @@ export const trText = {
   redirectingGithub:"Github'a yönlendiriliyorsunuz.",
   redirectingHackerrank:"Hackerrank'e yönlendiriliyorsunuz.",
   pageUnderConstruction:"Sayfa yapim aşamasındadır."
-
-
 }

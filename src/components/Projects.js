@@ -25,8 +25,8 @@ const Projects = () => {
           <span id="uniqueSkill">{item.skill3}</span>
         </div>
         <div id='links'>
-          <a id="projectsLink"href={item.githubLink}>Github</a>
-          <a id="projectsLink"href={item.websitelink}>{item.website}</a>
+          <a id="projectsLink" href={item.githubLink} target="_blank" rel="noopener noreferrer">Github</a>
+          <a id="projectsLink" href={item.websitelink} target="_blank" rel="noopener noreferrer">{item.website}</a>
         </div>
       </div>
       )}

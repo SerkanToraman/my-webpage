@@ -19,7 +19,6 @@ const Body = () => {
       <Profile/>
       <hr id='border'/>
       <Projects/>
-
   </div>
   )
 }

@@ -549,7 +549,7 @@ table {
           display: flex;
           justify-content: space-around;
           gap: 10px; }
-      .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn button {
+      .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn #introductionButton {
         width: 250px;
         padding-top: 8px;
         padding-bottom: 8px;
@@ -561,7 +561,7 @@ table {
         line-height: 28px;
         text-decoration: none;
         cursor: pointer; }
-      .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn button:hover {
+      .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn #introductionButton:hover {
         background-color: #3730A3;
         color: #FFFFFF; }
     .light_mode .body_main #personalIntroduction #personalIntroductionRightColoumn {
@@ -722,7 +722,7 @@ table {
   .light_mode .body_main {
     width: 80%; } }
 @media (max-width: 1200px) {
-  .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn nav button {
+  .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn nav #introductionButton {
     padding: 0 0;
     width: 200px;
     height: 45px; } }
@@ -824,7 +824,7 @@ table {
           display: flex;
           justify-content: space-around;
           gap: 10px; }
-      .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn button {
+      .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn #introductionButton {
         width: 250px;
         padding-top: 8px;
         padding-bottom: 8px;
@@ -836,7 +836,7 @@ table {
         line-height: 28px;
         text-decoration: none;
         cursor: pointer; }
-      .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn button:hover {
+      .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn #introductionButton:hover {
         background-color: #E1E1FF;
         color: #000000; }
     .dark_mode .body_main #personalIntroduction #personalIntroductionRightColoumn {
@@ -997,7 +997,7 @@ table {
   .dark_mode .body_main {
     width: 80%; } }
 @media (max-width: 1200px) {
-  .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn nav button {
+  .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn nav #introductionButton {
     padding: 0 0;
     width: 200px;
     height: 45px; } }

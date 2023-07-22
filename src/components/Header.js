@@ -16,6 +16,7 @@ const Header = () => {
   // Redux is used insteadof ContextAPI 
   //const {UIText}=useContext(LanguageContext);
   const UIText = useSelector((store)=> store.languageReducer);
+  const [pageloaded,setPageLoaded]=useState(false);
   const dispatch = useDispatch()
   const [englishLangSelection,setEnglishLangSelection] = useLocalStorage ("English",true);
   const UISelector = () =>{
@@ -26,7 +27,9 @@ const Header = () => {
       dispatch(languageSelection(englishLangSelection,UIText));
   },[englishLangSelection])
 
-
+  useEffect(()=>{
+    setPageLoaded(!pageloaded)
+  },[])
 
   return (
   <div className={`${mode} header_main`}>

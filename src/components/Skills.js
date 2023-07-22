@@ -8,11 +8,11 @@ const Skills = () => {
         <h1 id='skillMainHeaders'>{UIText.skills}</h1>
         <div id='skillBoxSet'>
           <div id='skillBox'>
-            <h2 id="skillSubHeader">Java Script</h2>
+            <h2 id="skillSubHeader">ReactJS</h2>
             <p id="skillDefinition">{UIText.skillDescription1} </p> 
           </div>
           <div id='skillBox'>
-            <h2 id="skillSubHeader">React</h2>
+            <h2 id="skillSubHeader">NodeJS</h2>
             <p id="skillDefinition">{UIText.skillDescription2} </p>
           </div>
           <div id='skillBox'>
