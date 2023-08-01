@@ -31,7 +31,7 @@ export const trText = {
     "Erciyes Universitesi Makina Mühendisliği lisans eğitimimi tamamladıktan sonra Coventry Üniversitesi'nde Master derecemi Engineering Business Management üzerine yaptım. İtalya, Çin ve Almanya'da Endüstri Mühendisliği ve Satış bölümlerinde çalıştım. Multikültürel çalışma ortamında çalışmanın getirdiği deneyim, sürekli öğrenme gayretim ve yazılım tutkumla yazılım sektöründe başarılı olamayı hedefliyorum",
   projectName1: "Pizza Siparişi",
   projectDescription1:
-    "İçinde tüm malzemlerinin ücretlerini gösteren sade bir pizza sipariş uygulamasıdır. Kullanıcı en sonunda ara fiyat ve toplam fiyatı görmektedir. Komponentler arası data gönderimi için propdrilling kullanılmıştır. Bunun yanında Yup ile veri validasyonu ve reactstrap ile görselleştirme yapılmıştır.Bu arada, favori pizza malzemeleriniz nelerdir? .",
+    "İçinde tüm malzemlerinin ücretlerini gösteren sade bir pizza sipariş uygulamasıdır. Kullanıcı en sonunda ara fiyat ve toplam fiyatı görmektedir. Komponentler arası data gönderimi için propdrilling kullanılmıştır. Bunun yanında Yup ile veri validasyonu ve reactstrap ile görselleştirme yapılmıştır.Bu arada, favori pizza malzemeleriniz nelerdir?",
   projectName2: "Twitter Projesi",
   projectDescription2:
     "Bu proje hem backend ve hem de frontend kodlamayı kapsamaktadır. Frontend için ReactJS ve backend için NodeJS kütüphaneleri kullanılmıştır. Ek olarak, görsel tasarımda SCSS dili kullanılmıştır. Bu proje canlıdır ve sizde bir tweet atmak istemezmisiniz? ",
